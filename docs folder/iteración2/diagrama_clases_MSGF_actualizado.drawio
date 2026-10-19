@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="zhtPr8-hu9-s_of1P-UG">
+    <mxGraphModel dx="1246" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="mZUpN-633xW1r1b6UQGa-0" />
+        <mxCell id="mZUpN-633xW1r1b6UQGa-1" parent="mZUpN-633xW1r1b6UQGa-0" />
+        <mxCell id="lRMdJ9rULExXgMySOkFi-0" parent="mZUpN-633xW1r1b6UQGa-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Activo" vertex="1">
+          <mxGeometry height="140" width="160" x="570" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-1" parent="lRMdJ9rULExXgMySOkFi-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="#ID" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-2" parent="lRMdJ9rULExXgMySOkFi-0" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelPerimeter=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-3" parent="lRMdJ9rULExXgMySOkFi-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Crear()&lt;br&gt;Read()&lt;br&gt;Update()&lt;br&gt;Delete()" vertex="1">
+          <mxGeometry height="80" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-4" parent="mZUpN-633xW1r1b6UQGa-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Hipoteca" vertex="1">
+          <mxGeometry height="194" width="160" x="300" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-5" parent="lRMdJ9rULExXgMySOkFi-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="pareja&lt;br&gt;valor_inicial&lt;br&gt;fecha_otorgada&lt;br&gt;ingresos_sem&lt;br&gt;impuesto&lt;br&gt;seguro&lt;br&gt;fecha_imp&lt;br&gt;fecha_seg" vertex="1">
+          <mxGeometry height="160" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-6" parent="lRMdJ9rULExXgMySOkFi-4" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelPerimeter=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-7" parent="mZUpN-633xW1r1b6UQGa-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Inversion" vertex="1">
+          <mxGeometry height="114" width="160" x="530" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-8" parent="lRMdJ9rULExXgMySOkFi-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="entidad&lt;br&gt;valor&lt;br&gt;plazos&lt;br&gt;interes" vertex="1">
+          <mxGeometry height="80" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-9" parent="lRMdJ9rULExXgMySOkFi-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelPerimeter=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-10" parent="mZUpN-633xW1r1b6UQGa-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="BecaCredito" vertex="1">
+          <mxGeometry height="194" width="190" x="800" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-11" parent="lRMdJ9rULExXgMySOkFi-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="estudiante&lt;br&gt;semestre&lt;br&gt;valor_otorgado&lt;br&gt;valor_matricula&lt;br&gt;fecha_otorgada&lt;br&gt;estado" vertex="1">
+          <mxGeometry height="120" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-12" parent="lRMdJ9rULExXgMySOkFi-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelPerimeter=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="190" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-13" parent="lRMdJ9rULExXgMySOkFi-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="otorgar()&lt;br&gt;liquidar()" vertex="1">
+          <mxGeometry height="40" width="190" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-14" edge="1" parent="mZUpN-633xW1r1b6UQGa-1" source="lRMdJ9rULExXgMySOkFi-4" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="lRMdJ9rULExXgMySOkFi-0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-15" edge="1" parent="mZUpN-633xW1r1b6UQGa-1" source="lRMdJ9rULExXgMySOkFi-7" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="lRMdJ9rULExXgMySOkFi-0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRMdJ9rULExXgMySOkFi-16" edge="1" parent="mZUpN-633xW1r1b6UQGa-1" source="lRMdJ9rULExXgMySOkFi-10" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" target="lRMdJ9rULExXgMySOkFi-0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

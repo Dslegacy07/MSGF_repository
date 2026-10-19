@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" pages="1">
+  <diagram id="jciev6HsdC3cYcsXDANF" name="Página-4">
+    <mxGraphModel dx="1246" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-1" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;fillColor=#e1f5fe;strokeColor=#0288d1;" value="Clases Límite (&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;)" vertex="1">
+          <mxGeometry height="340" width="280" x="270" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-2" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0288d1;fontStyle=1;" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&#10;PantallaMenuPrincipal" vertex="1">
+          <mxGeometry height="45" width="240" x="290" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-3" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0288d1;fontStyle=1;" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&#10;InterfazCalcularFondo" vertex="1">
+          <mxGeometry height="45" width="240" x="290" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-4" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0288d1;fontStyle=1;" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&#10;InterfazGestionHipoteca" vertex="1">
+          <mxGeometry height="45" width="240" x="290" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-5" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0288d1;fontStyle=1;" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&#10;InterfazGestionInversion" vertex="1">
+          <mxGeometry height="45" width="240" x="290" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-6" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0288d1;fontStyle=1;" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&#10;InterfazImpresionReporte" vertex="1">
+          <mxGeometry height="45" width="240" x="290" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-7" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;fillColor=#fff3e0;strokeColor=#f57c00;" value="Clases de Control (&amp;lt;&amp;lt;control&amp;gt;&amp;gt;)" vertex="1">
+          <mxGeometry height="340" width="280" x="610" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-8" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#f57c00;fontStyle=1;" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&#10;GestorLoopSistema" vertex="1">
+          <mxGeometry height="45" width="240" x="630" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-9" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#f57c00;fontStyle=1;" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&#10;ControladorCalculoFondo" vertex="1">
+          <mxGeometry height="45" width="240" x="630" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-10" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#f57c00;fontStyle=1;" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&#10;ControladorGestionHipoteca" vertex="1">
+          <mxGeometry height="45" width="240" x="630" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-11" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#f57c00;fontStyle=1;" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&#10;ControladorGestionInversion" vertex="1">
+          <mxGeometry height="45" width="240" x="630" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-12" parent="1" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#f57c00;fontStyle=1;" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&#10;ControladorGenerarReporte" vertex="1">
+          <mxGeometry height="45" width="240" x="630" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-13" edge="1" parent="1" source="HJ9zgf0Mqpyptxex34tp-8" style="endArrow=open;endSize=12;dashed=1;html=1;" target="HJ9zgf0Mqpyptxex34tp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-14" edge="1" parent="1" source="HJ9zgf0Mqpyptxex34tp-9" style="endArrow=open;endSize=12;dashed=1;html=1;" target="HJ9zgf0Mqpyptxex34tp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-15" edge="1" parent="1" source="HJ9zgf0Mqpyptxex34tp-10" style="endArrow=open;endSize=12;dashed=1;html=1;" target="HJ9zgf0Mqpyptxex34tp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-16" edge="1" parent="1" source="HJ9zgf0Mqpyptxex34tp-11" style="endArrow=open;endSize=12;dashed=1;html=1;" target="HJ9zgf0Mqpyptxex34tp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-17" edge="1" parent="1" source="HJ9zgf0Mqpyptxex34tp-12" style="endArrow=open;endSize=12;dashed=1;html=1;" target="HJ9zgf0Mqpyptxex34tp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Clases Limite&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="270" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ9zgf0Mqpyptxex34tp-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Clases Control&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="610" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
